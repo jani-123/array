@@ -1,11 +1,11 @@
-function ejercicio1(num,arr)
+/*function ejercicio1(num,arr)
 {
 	return arr.reduce(function(a,b){ return (a*b)})*num;
 
 
 }
-console.log(ejercicio1(9,[4,4,5,12]));
-/*
+console.log(ejercicio1(9,[4,4,5,12]));*/
+
 var assert = require('assert');
 function ejercicio1(arr,num)
 {
@@ -29,4 +29,3 @@ describe('multiplicacion',function(){
          assert.equal(6, ejercicio1([2,3]));
     });
 });
-*/
